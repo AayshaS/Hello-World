@@ -23,7 +23,7 @@ describe('Fill all the input fields form and assert',() => {
         //debug
         // for debug the specific element we increase time as framework lavel mocha opt like 600000 and check during execution and run command on terminal
 
-        await browser.debug();
+        //await browser.debug();
 
         console.log($('//button[@type="submit"]'));
          $('//button[@type="submt"]').click();

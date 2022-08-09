@@ -19,14 +19,13 @@ describe('Fill all the input fields form and assert',() => {
         // if we want to check and debug so can change info globle lable error 
         // and its print all details related that
         // pause
-        //browser.pause(2000);
+        browser.pause(2000);
         //debug
         // for debug the specific element we increase time as framework lavel mocha opt like 600000 and check during execution and run command on terminal
 
         //await browser.debug();
-
         console.log($('//button[@type="submit"]'));
-         $('//button[@type="submt"]').click();
+         await $('//button[@type="submit"]').click();
        // await browser.pause(4000);
         var textAlert= await $('//div[contains(text(),"Thanks for contacting us! We will be in touch with you shortly")]').getText();
          expect(textAlert).toHaveText('Thanks for contacting us! We will be in touch with you shortly');

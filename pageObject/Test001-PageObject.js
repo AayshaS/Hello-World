@@ -1,4 +1,4 @@
-//import {format} from 'date-fns';
+//import format from 'date-fns';
 const format1=require('date-fns')
 class PageObject {
     
@@ -41,3 +41,5 @@ class PageObject {
 
  }
 module.exports = new PageObject();
+//defult way to export the class 
+//export default new PageObject();

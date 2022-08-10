@@ -2,7 +2,7 @@
 const test01 = require("../pageObject/Test001-PageObject");
 const format1=require('date-fns')
 let d1 = new Date();
- let date =format1.format(d1, 'dd-MM-yyyy HH:mm:ss');
+ let date =format1.format(d1, 'dd-MM-yyyy-HH-mm-ss');
  
 describe("sample text for mouse hover", async () => {
   it("mouse hover on text", async () => {
@@ -36,5 +36,6 @@ describe("sample text for mouse hover", async () => {
     const hoveredtext2 = await test01.sectionHoveredTXT.getText();
     console.log(hoveredtext2);
     await browser.pause(3000);
+    
   });
 });

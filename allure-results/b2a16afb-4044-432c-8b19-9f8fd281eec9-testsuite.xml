@@ -1,0 +1,121 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660041442839' stop='1660041502853'>
+    <name>Fill all the input fields form and assert</name>
+    <title>Fill all the input fields form and assert</title>
+    <test-cases>
+        <test-case start='1660041442839' status='broken' stop='1660041502850'>
+            <name>add contact fields</name>
+            <title>add contact fields</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps>
+                <step start='1660041442841' status='passed' stop='1660041442980'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='b2170b37-ddb1-451b-8013-90cf3122f1d1-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660041442981' status='passed' stop='1660041451598'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b66859d5-ef08-4713-b38e-bb6976ab103f-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660041451601' status='passed' stop='1660041451653'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2471330a-f9b7-48a5-a551-f11d23221b24-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='dceec528-93ad-4f4e-b685-bd5d39e7fb71-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660041451659' status='passed' stop='1660041451695'>
+                    <name>POST /session/:sessionId/element/264ed010-2ecf-4aaf-af6b-8913570b100f/clear</name>
+                    <title>POST /session/:sessionId/element/264ed010-2ecf-4aaf-af6b-8913570b100f/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660041451698' status='passed' stop='1660041451751'>
+                    <name>POST /session/:sessionId/element/264ed010-2ecf-4aaf-af6b-8913570b100f/value</name>
+                    <title>POST /session/:sessionId/element/264ed010-2ecf-4aaf-af6b-8913570b100f/value</title>
+                    <attachments>
+                        <attachment title='Request' source='cdf6f915-e0af-4302-8883-f44282cc1b51-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660041456759' status='passed' stop='1660041456773'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5fb3b65c-edb0-423b-8f5e-3df1d1bc0c10-attachment.json' type='application/json' size='96'/>
+                        <attachment title='Response' source='17ab1ee7-40a2-43b5-b5c1-d2efe0774d38-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660041456781' status='passed' stop='1660041456854'>
+                    <name>POST /session/:sessionId/element/b2ad6042-6a62-41df-b013-140313c7a7c3/value</name>
+                    <title>POST /session/:sessionId/element/b2ad6042-6a62-41df-b013-140313c7a7c3/value</title>
+                    <attachments>
+                        <attachment title='Request' source='8d42fd18-8616-4d80-850b-d0c85081a7e3-attachment.json' type='application/json' size='31'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660041461863' status='passed' stop='1660041461889'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='78c7b448-8d0a-4ac5-ab85-e0448f696c0d-attachment.json' type='application/json' size='79'/>
+                        <attachment title='Response' source='0cc221cf-03c6-44f2-8e88-1221bfa5b21e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660041461894' status='passed' stop='1660041462013'>
+                    <name>POST /session/:sessionId/element/6817cc3f-e553-411e-a2b4-61d1e5a4c936/value</name>
+                    <title>POST /session/:sessionId/element/6817cc3f-e553-411e-a2b4-61d1e5a4c936/value</title>
+                    <attachments>
+                        <attachment title='Request' source='72f322f6-baf8-490d-8199-ee981c57e0b9-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660041467016' status='passed' stop='1660041467041'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9e9d1fe4-1532-4577-9ba1-668f7025c314-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='61dfc6fd-b945-4db3-88d3-3fd259704bf6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660041467044' status='passed' stop='1660041467153'>
+                    <name>POST /session/:sessionId/element/87a7d202-b714-479a-9d83-ef65fc05070c/value</name>
+                    <title>POST /session/:sessionId/element/87a7d202-b714-479a-9d83-ef65fc05070c/value</title>
+                    <attachments>
+                        <attachment title='Request' source='fa946752-3a03-4373-be03-06645504557c-attachment.json' type='application/json' size='33'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Fill all the input fields form and assert add contact fields" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\Web-TestProject\test\Debugging.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Fill all the input fields form and assert add contact fields" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\Web-TestProject\test\Debugging.js)
+                    at createTimeoutError (D:\Web-TestProject\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (D:\Web-TestProject\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (D:\Web-TestProject\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

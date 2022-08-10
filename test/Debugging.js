@@ -20,6 +20,7 @@ describe('Fill all the input fields form and assert',() => {
         // and its print all details related that
         // pause
         browser.pause(2000);
+
         //debug
         // for debug the specific element we increase time as framework lavel mocha opt like 600000 and check during execution and run command on terminal
 

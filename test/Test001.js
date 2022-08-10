@@ -1,8 +1,8 @@
 
-const test01 = require("../pageObject/Test001-PageObject");
-const format1=require('date-fns')
-let d1 = new Date();
- let date =format1.format(d1, 'dd-MM-yyyy HH:mm:ss');
+var test01 = require("../pageObject/Test001-PageObject");
+var format1=require('date-fns')
+//let date1 = new Date();
+ //et date =format1.format(date1, 'dd-MM-yyyy HH:mm:ss');
  
 describe("sample text for mouse hover", async () => {
   it("mouse hover on text", async () => {
